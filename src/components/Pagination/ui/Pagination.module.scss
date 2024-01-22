@@ -1,0 +1,25 @@
+.pagination {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 20px;
+	width: 85%;
+}
+
+.pagination_item {
+	border: 1px solid #aba8ab;
+	padding: 10px 15px;
+	color: #2c8d19;
+	font-size: 24px;
+	cursor: pointer;
+	min-width: 50px;
+	text-align: center;
+
+	@media(max-width: 760px) {
+		padding: 5px 10px;
+	}
+}
+
+.pagination_item_current {
+	background-color: #41c62f;
+	color: #ffffff;
+}

@@ -1,0 +1,40 @@
+.link_list {
+	display: flex;
+	align-items: center;
+	gap: 0 20px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+
+	@media(max-width: 760px) {
+		margin-bottom: 10px;
+	}
+}
+
+.link_item {
+	font-size: 24px;
+
+	@media(max-width: 760px) {
+		font-size: 20px;
+	}
+}
+
+.link {
+	padding-bottom: 20px;
+	color: #7d7d7d;
+	cursor: pointer;
+
+	@media(max-width: 760px) {
+		padding-bottom: 10px;
+	}
+}
+
+.link_active {
+	padding-bottom: 20px;
+	color: #2c8d19;
+	border-bottom: 2px solid #2c8d19;
+	cursor: pointer;
+
+	@media(max-width: 760px) {
+		padding-bottom: 10px;
+	}
+}

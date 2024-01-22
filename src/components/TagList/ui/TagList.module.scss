@@ -1,0 +1,13 @@
+.list_tags {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 0 10px;
+}
+
+.tag {
+	padding: 4px 10px;
+	color: #ffffff;
+	background-color: #939393;
+	border-radius: 25px;
+}

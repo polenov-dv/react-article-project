@@ -1,0 +1,1 @@
+export { AsyncNewArticle as NewArticle } from "./ui/NewArticle.lazy";

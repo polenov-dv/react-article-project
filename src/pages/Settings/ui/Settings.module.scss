@@ -1,0 +1,35 @@
+.form_content {
+	width: 80%;
+	margin: 0 auto;
+
+	@media(max-width: 760px) {
+		width: 100%;
+	}
+}
+
+.form_control {
+	width: 100%;
+	margin-bottom: 12px;
+	height: 40px;
+	font-size: 18px;
+	padding-left: 20px;
+	border: 1px solid #ada6a8;
+	border-radius: 8px;
+}
+
+.form_area {
+	height: 200px;
+}
+
+.form_button {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+.btn_exit {
+	background-color: #ff527f;
+	border: 1px solid #ff527f;
+}

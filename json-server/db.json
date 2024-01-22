@@ -1,0 +1,968 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "Что такое React?",
+      "description": "React - это открытая (с открытым исходным кодом) JavaScript-библиотека для фронтенда, предназначенная для создания пользовательских интерфейсов, особенно, если речь идет о создании одностраничных приложений (Single Page Applications, SPA).",
+      "autor": "Jordan",
+      "autorIcon": "assets/images/bacteria.svg",
+      "created": "10.01.2011, 12:12:12",
+      "tagList": "React JsReact",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "2",
+      "title": "Что такое JSX?",
+      "description": "JSX (JavaScript и XML) - это XML-подобный синтаксис, расширяющий возможности ECMAScript. По сути, он является синтаксическим сахаром для функции React.createElement, совмещая выразительность JavaScript с HTML-подобным синтаксисом разметки",
+      "autor": "Walke",
+      "autorIcon": "assets/images/child.svg",
+      "created": "10.01.2012, 10:10:10",
+      "tagList": "React JsReact",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "3",
+      "title": "Как создаются компоненты?",
+      "description": "Функциональные компоненты и классовые компоненты",
+      "autor": "Bonny",
+      "autorIcon": "assets/images/bomb.svg",
+      "created": "2.03.2014, 09:23:12",
+      "tagList": "React JsReact",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "4",
+      "title": "Что такое состояние?",
+      "description": "Cостояние (state) - это объект, содержащий некоторую информацию, которая может измениться в течение жизненного цикла компонента. ",
+      "autor": "Bonny",
+      "autorIcon": "assets/images/bomb.svg",
+      "created": "2.03.2014, 15:20:00",
+      "tagList": "React JsReact",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "5",
+      "title": "Что такое пропы?",
+      "description": "Пропы (props) - это входные данные для компонента. Это простые значения (примитивы) или объект, содержащий несколько значений, которые передаются компонентам при их создании с помощью синтаксиса, похожего на атрибуты HTML-тегов.",
+      "autor": "Bonny",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "2.03.2014, 15:20:00",
+      "tagList": "React JsReact",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "6",
+      "title": "Для чего в setState() используются функции обратного вызова?",
+      "description": "Колбек вызывается после выполнения setState() и рендеринга компонента. Поскольку метод setState является асинхронным, колбек используется для выполнения любых последующих операций.",
+      "autor": "Bonny",
+      "autorIcon": "assets/images/bomb.svg",
+      "created": "5.03.2014, 15:27:00",
+      "tagList": "React JsReact",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "7",
+      "title": "Что такое условный рендеринг?",
+      "description": "Для условного рендеринга (conditional rendering) можно использовать обычные if или тернарные операторы. ",
+      "autor": "Jordan",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "17.03.2014, 16:26:00",
+      "tagList": "React JsReact",
+      "likes": "1",
+      "favorite": [
+        "Allan"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Для чего используются ссылки или рефы?",
+      "description": "Реф (ref) возвращает ссылку на DOM-элемент.",
+      "autor": "Jordan",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "17.03.2014, 15:28:00",
+      "tagList": "React JsReact",
+      "likes": "3",
+      "favorite": [
+        "Allan",
+        "Bonny",
+        "root"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Что такое виртуальный DOM?",
+      "description": "Virtual DOM (VDOM) - это представление Real DOM, хранимое в памяти.",
+      "autor": "Goon",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "16.04.2014, 12:21:10",
+      "tagList": "React JsReact",
+      "likes": "1",
+      "favorite": [
+        "root"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Что такое управляемые компоненты?",
+      "description": "Компоненты, которые управляют инпутами формы для текущего пользователя, называются управляемыми.",
+      "autor": "Goon",
+      "autorIcon": "assets/images/bacteria.svg",
+      "created": "11.05.2014, 13:21:10",
+      "tagList": "React JsReact",
+      "likes": "1",
+      "favorite": [
+        "root"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Свойство: border",
+      "description": "Сокращенное свойство для свойств border-width, border-style и border-color",
+      "autor": "Goon",
+      "autorIcon": "assets/images/bacteria.svg",
+      "created": "11.05.2014, 13:21:10",
+      "tagList": "CSS",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "12",
+      "title": "Свойство: color",
+      "description": "Задает цвет текста",
+      "autor": "Goon",
+      "autorIcon": "assets/images/bacteria.svg",
+      "created": "16.08.2014, 12:10:00",
+      "tagList": "CSS",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "13",
+      "title": "Свойство: bottom",
+      "description": "Задает положение элементов в нижней части родительского элемента",
+      "autor": "Bally",
+      "autorIcon": "assets/images/bomb.svg",
+      "created": "27.05.2015, 19:14:04",
+      "tagList": "CSS",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "14",
+      "title": "Свойство: cursor",
+      "description": "Указывает курсор мыши будет отображаться при наведении на элемент",
+      "autor": "Bally",
+      "autorIcon": "assets/images/bomb.svg",
+      "created": "21.02.2015, 12:12:01",
+      "tagList": "CSS",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "15",
+      "title": "Свойство: display",
+      "description": "Указывает, как должен отображаться определенный элемент HTML",
+      "autor": "Hayp",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "22.12.2016, 09:32:21",
+      "tagList": "CSS",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "16",
+      "title": "Свойство: @font-face",
+      "description": "Правило, которое позволяет веб-сайтам загружать и использовать шрифты, отличные от шрифтов web-safe",
+      "autor": "Hayp",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "25.12.2016, 19:33:23",
+      "tagList": "CSS",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "17",
+      "title": "Свойство: height",
+      "description": "Задает высоту элемента",
+      "autor": "Hayp",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "28.12.2016, 11:54:32",
+      "tagList": "CSS",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "18",
+      "title": "Свойство: justify-content",
+      "description": "Задает выравнивание между элементами внутри гибкого контейнера, если не использовать все доступное пространство",
+      "autor": "Rory",
+      "autorIcon": "assets/images/child.svg",
+      "created": "30.12.2016, 14:43:52",
+      "tagList": "CSS",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "19",
+      "title": "Свойство: list-style-image",
+      "description": "Задает изображение в качестве маркера элемента списка",
+      "autor": "Rory",
+      "autorIcon": "assets/images/child.svg",
+      "created": "02.01.2017, 16:45:50",
+      "tagList": "CSS",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "20",
+      "title": "Свойство: margin",
+      "description": "Устанавливает все свойства полей в одном объявлении",
+      "autor": "Rory",
+      "autorIcon": "assets/images/child.svg",
+      "created": "04.01.2017, 17:25:50",
+      "tagList": "CSS",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "21",
+      "title": "Свойство: object-fit",
+      "description": "Определяет как содержание замененного элемента должно быть приспособлено к боксу установленной своими используемыми высотой и шириной",
+      "autor": "Tom",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "05.01.2017, 07:35:10",
+      "tagList": "CSS",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "22",
+      "title": "Свойство: position",
+      "description": "Указывает тип метода позиционирования, используемого для элемента (статический, относительный, абсолютный или фиксированный)",
+      "autor": "Tom",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "06.01.2017, 09:55:20",
+      "tagList": "CSS",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "23",
+      "title": "Свойство: text-align",
+      "description": "Задает выравнивание текста по горизонтали",
+      "autor": "Tom",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "08.01.2017, 14:45:23",
+      "tagList": "CSS",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "24",
+      "title": "Свойство: vertical-align",
+      "description": "Задает вертикальное выравнивание элемента",
+      "autor": "Tom",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "22.01.2017, 16:25:53",
+      "tagList": "CSS",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "25",
+      "title": "Тег: <!DOCTYPE> ",
+      "description": "Определяет тип документа",
+      "autor": "Alina",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "13.04.2014, 12:21:10",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "26",
+      "title": "Тег: <a>",
+      "description": "Определяет гиперссылку",
+      "autor": "Alina",
+      "autorIcon": "assets/images/bacteria.svg",
+      "created": "15.05.2014, 11:24:10",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "27",
+      "title": "Тег: <article>",
+      "description": "Определяет статью",
+      "autor": "Alina",
+      "autorIcon": "assets/images/bacteria.svg",
+      "created": "17.05.2014, 17:21:10",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "28",
+      "title": "Тег: <blockquote>",
+      "description": "Определяет раздел, который цитируется из другого источника",
+      "autor": "Alina",
+      "autorIcon": "assets/images/bacteria.svg",
+      "created": "18.08.2014, 05:10:00",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "29",
+      "title": "Тег: <button>",
+      "description": "Определяет нажатую кнопку",
+      "autor": "Jery",
+      "autorIcon": "assets/images/bomb.svg",
+      "created": "19.05.2015, 19:14:04",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "30",
+      "title": "Тег: <code>",
+      "description": "Определяет часть кода компьютера",
+      "autor": "root",
+      "autorIcon": "assets/images/bomb.svg",
+      "created": "20.02.2015, 19:12:01",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "31",
+      "title": "Тег: <details>",
+      "description": "Определяет дополнительные сведения, которые пользователь может просматривать или скрывать",
+      "autor": "Jery",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "22.12.2016, 09:52:21",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "32",
+      "title": "Тег: <footer>",
+      "description": "Определяет нижний колонтитул для документа или раздела",
+      "autor": "Jery",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "07.12.2019, 19:33:23",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "33",
+      "title": "Тег: <head>",
+      "description": "Определяет сведения о документе",
+      "autor": "Repit",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "28.12.2019, 11:54:32",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "34",
+      "title": "Тег: <header>",
+      "description": "Определяет заголовок документа или раздела",
+      "autor": "Repit",
+      "autorIcon": "assets/images/child.svg",
+      "created": "30.12.2019, 14:43:52",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "35",
+      "title": "Тег: <input>",
+      "description": "Определяет элемент управления вводом",
+      "autor": "Repit",
+      "autorIcon": "assets/images/child.svg",
+      "created": "02.01.2019, 16:45:50",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "36",
+      "title": "Тег: <main>",
+      "description": "Указывает основное содержимое документа",
+      "autor": "root",
+      "autorIcon": "assets/images/child.svg",
+      "created": "04.01.2019, 17:25:50",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "37",
+      "title": "Тег: <nav>",
+      "description": "Определяет навигационные ссылки",
+      "autor": "Mom",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "05.01.2019, 07:35:10",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "38",
+      "title": "Тег: <picture>",
+      "description": "Определяет контейнер для нескольких ресурсов изображения",
+      "autor": "Mom",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "06.01.2017, 09:55:20",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "39",
+      "title": "Тег: <strong>",
+      "description": "Определяет важный текст",
+      "autor": "Mom",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "08.01.2017, 14:45:23",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "40",
+      "title": "Тег: <textarea>",
+      "description": "Определяет многострочный элемент управления вводом (область текста)",
+      "autor": "Mom",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "22.01.2017, 16:25:53",
+      "tagList": "HTML",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "41",
+      "title": "Что такое неуправляемые компоненты?",
+      "description": "Неуправляемые компоненты - это компоненты, которые имеют собственное состояние. При необходимости получения значения их текущего состояния используются ссылки на DOM-элементы. Это больше похоже на обычный HTML",
+      "autor": "Bad",
+      "autorIcon": "assets/images/bacteria.svg",
+      "created": "22.01.2020, 16:25:53",
+      "tagList": "React",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "42",
+      "title": "Что такое компонент высшего порядка?",
+      "description": "Higher-order component (HOC) - это функция, принимающая компонент и возвращающая новый компонент. Это паттерн, производный от композиционной природы React",
+      "autor": "Bad",
+      "autorIcon": "assets/images/bacteria.svg",
+      "created": "28.01.2020, 16:25:53",
+      "tagList": "React",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "43",
+      "title": "Что такое контекст?",
+      "description": "Context API предоставляет возможность передавать данные в дереве компонента без необходимости передачи пропов на каждом уровне вручную.",
+      "autor": "Bad",
+      "autorIcon": "assets/images/bacteria.svg",
+      "created": "27.01.2020, 16:25:53",
+      "tagList": "React",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "44",
+      "title": "Что такое children?",
+      "description": "Потомки (дети, дочерние компоненты) - это проп (this.props.children), позволяющий передавать одни компоненты другим как любые другие пропы.",
+      "autor": "root",
+      "autorIcon": "assets/images/bacteria.svg",
+      "created": "29.01.2020, 14:28:53",
+      "tagList": "React",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "45",
+      "title": "Типы, интегрированные в среду разработки",
+      "description": "TS защищает нас от совершения ошибок. Поскольку TS обладает информацией о системе типов, используемых в нашем коде, он начинает предполагать (делать вывод относительно того), какое свойство мы хотим использовать. ",
+      "autor": "Allan",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "04.02.2020, 11:04:22",
+      "tagList": "TypeScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "46",
+      "title": "Примитивы: string, number и boolean",
+      "description": "JS часто используется 3 примитива: string, number и boolean. Каждый из них имеет соответствующий тип в TS",
+      "autor": "Allan",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "05.02.2020, 12:04:22",
+      "tagList": "TypeScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "47",
+      "title": "Массивы",
+      "description": "Для определения типа массива [1, 2, 3] можно использовать синтаксис number[]; такой синтаксис подходит для любого типа (например, string[] - это массив строк и т.д.).",
+      "autor": "Allan",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "06.02.2020, 12:24:22",
+      "tagList": "TypeScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "48",
+      "title": "any",
+      "description": "TS предоставляет специальный тип any, который может использоваться для отключения проверки типов",
+      "autor": "Allan",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "08.02.2020, 15:24:22",
+      "tagList": "TypeScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "49",
+      "title": "Аннотации типа для переменных",
+      "description": "При объявлении переменной с помощью const, let или var опционально можно определить ее тип",
+      "autor": "Natan",
+      "autorIcon": "assets/images/bomb.svg",
+      "created": "09.02.2020, 14:24:22",
+      "tagList": "TypeScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "50",
+      "title": "Функции",
+      "description": "В JS функции, в основном, используются для работы с данными. TS позволяет определять типы как для входных (input), так и для выходных (output) значений функции",
+      "autor": "Natan",
+      "autorIcon": "assets/images/bomb.svg",
+      "created": "09.03.2020, 15:24:22",
+      "tagList": "TypeScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "51",
+      "title": "Типы объекта",
+      "description": "Объектный тип - это любое значение со свойствами. Для его определения мы просто перечисляем все свойства объекта и их типы",
+      "autor": "Natan",
+      "autorIcon": "assets/images/bomb.svg",
+      "created": "12.03.2020, 13:14:22",
+      "tagList": "TypeScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "52",
+      "title": "Объединения (unions)",
+      "description": "Объединение - это тип, сформированный из 2 и более типов, представляющий значение, которое может иметь один из этих типов.",
+      "autor": "Natan",
+      "autorIcon": "assets/images/bomb.svg",
+      "created": "14.03.2020, 04:12:12",
+      "tagList": "TypeScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "53",
+      "title": "Интерфейсы",
+      "description": "Определение интерфейса - это другой способ определения типа объекта",
+      "autor": "Katy",
+      "autorIcon": "assets/images/child.svg",
+      "created": "17.03.2020, 14:12:12",
+      "tagList": "TypeScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "54",
+      "title": "Литеральные типы (literal types)",
+      "description": "В дополнение к общим типам string и number, мы можем ссылаться на конкретные строки и числа, находящиеся на определенных позициях.",
+      "autor": "Katy",
+      "autorIcon": "assets/images/child.svg",
+      "created": "17.03.2020, 14:12:12",
+      "tagList": "TypeScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "55",
+      "title": "null и undefined",
+      "description": "В JS существует два примитивных значения, сигнализирующих об отсутствии значения: null и undefined. TS имеет соответствующие типы",
+      "autor": "root",
+      "autorIcon": "assets/images/child.svg",
+      "created": "22.03.2020, 04:27:12",
+      "tagList": "TypeScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "56",
+      "title": "Перечисления (enums)",
+      "description": "Перечисления позволяют описывать значение, которое может быть одной из набора именованных констант",
+      "autor": "Katy",
+      "autorIcon": "assets/images/child.svg",
+      "created": "27.03.2020, 22:23:12",
+      "tagList": "TypeScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "57",
+      "title": "Событие мыши: click",
+      "description": "Клик мыши на элементе (событие срабатывает после того, как кнопка мыши отпущена).",
+      "autor": "Alina",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "13.04.2014, 12:21:10",
+      "tagList": "JavaScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "58",
+      "title": "Событие мыши: dblclick",
+      "description": "Сделан двойной щелчок.",
+      "autor": "Alina",
+      "autorIcon": "assets/images/bacteria.svg",
+      "created": "15.05.2014, 11:24:10",
+      "tagList": "JavaScript",
+      "likes": "1",
+      "favorite": [
+        "root"
+      ]
+    },
+    {
+      "id": "59",
+      "title": "Событие мыши: mousedown",
+      "description": "Кнопка мыши нажата.",
+      "autor": "Alina",
+      "autorIcon": "assets/images/bacteria.svg",
+      "created": "17.05.2014, 17:21:10",
+      "tagList": "JavaScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "60",
+      "title": "Событие мыши: mouseup",
+      "description": "Кнопка мыши отжата.",
+      "autor": "Alina",
+      "autorIcon": "assets/images/bacteria.svg",
+      "created": "18.08.2014, 05:10:00",
+      "tagList": "JavaScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "61",
+      "title": "Событие мыши: mouseover",
+      "description": "Указатель мыши находится над элементом.",
+      "autor": "Jery",
+      "autorIcon": "assets/images/bomb.svg",
+      "created": "19.05.2015, 19:14:04",
+      "tagList": "JavaScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "62",
+      "title": "Событие мыши: mousemove",
+      "description": "Указатель мыши движется над элементом.",
+      "autor": "Jery",
+      "autorIcon": "assets/images/bomb.svg",
+      "created": "20.02.2015, 19:12:01",
+      "tagList": "JavaScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "63",
+      "title": "Событие мыши: mouseout",
+      "description": "Указатель мыши двигался над элементом, но ушёл с него.",
+      "autor": "Jery",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "22.12.2016, 09:52:21",
+      "tagList": "JavaScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "64",
+      "title": "Событие клавиатуры: keydown",
+      "description": "Зажата кнопка на клавиатуре.",
+      "autor": "Jery",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "07.12.2019, 19:33:23",
+      "tagList": "JavaScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "65",
+      "title": "Событие клавиатуры: keypress",
+      "description": "Тоже что и keydown, но и кнопка зажимается настолько долго, что происходит повторный набор символа.",
+      "autor": "Repit",
+      "autorIcon": "assets/images/baby.svg",
+      "created": "28.12.2019, 11:54:32",
+      "tagList": "JavaScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "66",
+      "title": "Событие клавиатуры:keyup",
+      "description": "Была отпущена нажатая кнопка.",
+      "autor": "Repit",
+      "autorIcon": "assets/images/child.svg",
+      "created": "30.12.2019, 14:43:52",
+      "tagList": "JavaScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "67",
+      "title": "Событие полей, форм и страницы: submit",
+      "description": "Форма начала отправляться (нажата кнопка submit), но переадресация на страницу в атрибуте action ещё не началась.",
+      "autor": "Repit",
+      "autorIcon": "assets/images/child.svg",
+      "created": "02.01.2019, 16:45:50",
+      "tagList": "JavaScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "68",
+      "title": "Событие полей, форм и страницы: change",
+      "description": "Содержимое элемента изменилось (срабатывает в том числе, если изменились значение атрибутов).",
+      "autor": "Repit",
+      "autorIcon": "assets/images/child.svg",
+      "created": "04.01.2019, 17:25:50",
+      "tagList": "JavaScript",
+      "likes": "0",
+      "favorite": []
+    },
+    {
+      "id": "69",
+      "title": "Событие полей, форм и страницы: select",
+      "description": "Текст или дочерние элементы выделены.",
+      "autor": "Mom",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "05.01.2019, 07:35:10",
+      "tagList": "JavaScript",
+      "likes": "1",
+      "favorite": [
+        "root"
+      ]
+    },
+    {
+      "id": "70",
+      "title": "Событие полей, форм и страницы: focus",
+      "description": "Элемент получил фокус. К примеру, клик по текстовому полю даёт на него фокус и можно набирать текст",
+      "autor": "Mom",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "06.01.2017, 09:55:20",
+      "tagList": "JavaScript",
+      "likes": "1",
+      "favorite": [
+        "root"
+      ]
+    },
+    {
+      "id": "71",
+      "title": "Событие полей, форм и страницы: blur",
+      "description": "Элемент потерял фокус.",
+      "autor": "Mom",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "08.01.2017, 14:45:23",
+      "tagList": "JavaScript",
+      "likes": "1",
+      "favorite": [
+        "root"
+      ]
+    },
+    {
+      "id": "72",
+      "title": "Событие полей, форм и страницы: load",
+      "description": "Завершена загрузка страницы в браузере.",
+      "autor": "Mom",
+      "autorIcon": "assets/images/dog.svg",
+      "created": "22.01.2017, 16:25:53",
+      "tagList": "JavaScript",
+      "likes": "0",
+      "favorite": []
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "userName": "user",
+      "description": "Описание пользователя user",
+      "email": "user@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "2",
+      "userName": "root",
+      "description": "Описание пользователя root",
+      "email": "root@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "3",
+      "userName": "Jordan",
+      "description": "Описание пользователя Jordan",
+      "email": "jordan@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "4",
+      "userName": "Walke",
+      "description": "Описание пользователя Walke",
+      "email": "walke@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "5",
+      "userName": "Bonny",
+      "description": "Описание пользователя Bonny",
+      "email": "bonny@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "6",
+      "userName": "Goon",
+      "description": "Описание пользователя Goon",
+      "email": "goon@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "7",
+      "userName": "Bally",
+      "description": "Описание пользователя Bally",
+      "email": "bally@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "8",
+      "userName": "Hayp",
+      "description": "Описание пользователя Hayp",
+      "email": "hayp@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "9",
+      "userName": "Rory",
+      "description": "Описание пользователя Rory",
+      "email": "rory@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "10",
+      "userName": "Tom",
+      "description": "Описание пользователя Tom",
+      "email": "tom@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "11",
+      "userName": "Alina",
+      "description": "Описание пользователя Alina",
+      "email": "alina@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "12",
+      "userName": "Jery",
+      "description": "Описание пользователя Jery",
+      "email": "jery@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "13",
+      "userName": "Repit",
+      "description": "Описание пользователя Repit",
+      "email": "repit@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "14",
+      "userName": "Mom",
+      "description": "Описание пользователя Mom",
+      "email": "mom@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "15",
+      "userName": "Bad",
+      "description": "Описание пользователя Bad",
+      "email": "bad@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "16",
+      "userName": "Allan",
+      "description": "Описание пользователя Allan",
+      "email": "allan@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "17",
+      "userName": "Natan",
+      "description": "Описание пользователя Natan",
+      "email": "natan@mail.ru",
+      "password": "password"
+    },
+    {
+      "id": "18",
+      "userName": "Katy",
+      "description": "Описание пользователя Katy",
+      "email": "katy@mail.ru",
+      "password": "password"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1",
+      "name": "React"
+    },
+    {
+      "id": "2",
+      "name": "JsReact"
+    },
+    {
+      "id": "3",
+      "name": "HTML"
+    },
+    {
+      "id": "4",
+      "name": "CSS"
+    },
+    {
+      "id": "5",
+      "name": "TypeScript"
+    },
+    {
+      "id": "6",
+      "name": "JavaScript"
+    }
+  ]
+}

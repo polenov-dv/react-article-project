@@ -1,0 +1,1 @@
+export { AsyncEditArticle as EditArticle } from "./ui/EditArticle.lazy";

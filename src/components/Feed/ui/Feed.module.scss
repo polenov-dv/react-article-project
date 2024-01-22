@@ -1,0 +1,75 @@
+.article {
+	margin-top: 40px;
+	padding-top: 20px;
+	color: #7d7d7d;
+	border-top: 1px solid #aba8ab;
+	width: 80%;
+
+	@media(max-width: 760px) {
+		width: 100%;
+	}
+}
+
+.article:first-child {
+	margin-top: 0;
+}
+
+.meta_wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+.meta {
+	display: flex;
+	align-items: center;
+	gap: 0 10px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0 10px;
+}
+
+.autor {
+	font-size: 20px;
+	color: #2c8d19;
+}
+
+.date {
+	font-size: 16px;
+	color: #aba8ab;
+}
+
+
+.autor_icon {
+	width: 50px;
+	height: 50px;
+}
+
+.title {
+	font-size: 32px;
+	color: #000000;
+	padding-bottom: 12px;
+
+	@media(max-width: 760px) {
+		font-size: 24px;
+	}
+}
+
+.desc {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.read_all {
+	display: block;
+	padding-bottom: 20px;
+}
+
+.article_link {
+	cursor: pointer;
+}

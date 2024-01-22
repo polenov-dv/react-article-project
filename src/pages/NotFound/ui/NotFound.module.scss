@@ -1,0 +1,16 @@
+.content {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.content_img {
+	font-size: 64px;
+}
+
+.content_text {
+	font-size: 22px;
+
+	@media(max-width: 500px) {
+		font-size: 20px;
+	}
+}

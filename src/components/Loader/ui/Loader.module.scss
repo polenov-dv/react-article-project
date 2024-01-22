@@ -1,0 +1,24 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	padding-top: 15px;
+}
+
+.loader {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 3px dashed rgb(55, 107, 140);
+	animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg) scale(1);
+	}
+
+	to {
+		transform: rotate(360deg) scale(2);
+	}
+}

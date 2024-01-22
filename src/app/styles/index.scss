@@ -1,0 +1,85 @@
+@import "./reset.scss";
+@import "./font.scss";
+
+html {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	display: grid;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+}
+
+.app {
+	font-family: 'RFRufo-Regular';
+	font-size: 18px;
+	line-height: 1.2;
+	color: #000000;
+	background: #fdfdfd;
+
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+main {
+	flex-grow: 1;
+	overflow-x: clip;
+}
+
+button {
+	font-size: 24px;
+	text-align: center;
+	color: #ffffff;
+	padding: 10px 15px;
+	cursor: pointer;
+
+	border-radius: 10px;
+	border: 1px solid #42c655;
+	background-color: #42c655;
+
+	@media(max-width: 760px) {
+		font-size: 18px;
+	}
+}
+
+.container {
+	max-width: 1440px;
+	padding-left: 65px;
+	padding-right: 65px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+@media(max-width: 830px) {
+	.container {
+		max-width: 830px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media(max-width: 380px) {
+	.container {
+		max-width: 380px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

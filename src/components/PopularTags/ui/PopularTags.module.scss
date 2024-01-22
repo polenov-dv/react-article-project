@@ -1,0 +1,30 @@
+.content {
+	background-color: #e4e4e4;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	min-height: 150px;
+}
+
+.title {
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+
+.link_list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px 10px
+}
+
+.link {
+	padding: 4px 10px;
+	color: #ffffff;
+	background-color: #939393;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+.link:hover {
+	background-color: #2c8d19;
+}
